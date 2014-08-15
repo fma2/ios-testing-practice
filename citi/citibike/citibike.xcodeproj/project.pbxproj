@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D1CC67F199D9AF8005CFDB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1CC67E199D9AF8005CFDB4 /* Foundation.framework */; };
+		6D1CC681199D9AF8005CFDB4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1CC680199D9AF8005CFDB4 /* CoreGraphics.framework */; };
+		6D1CC683199D9AF8005CFDB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1CC682199D9AF8005CFDB4 /* UIKit.framework */; };
+		6D1CC689199D9AF8005CFDB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D1CC687199D9AF8005CFDB4 /* InfoPlist.strings */; };
+		6D1CC68B199D9AF8005CFDB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1CC68A199D9AF8005CFDB4 /* main.m */; };
+		6D1CC68F199D9AF8005CFDB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1CC68E199D9AF8005CFDB4 /* AppDelegate.m */; };
+		6D1CC692199D9AF8005CFDB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D1CC690199D9AF8005CFDB4 /* Main.storyboard */; };
+		6D1CC695199D9AF8005CFDB4 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1CC694199D9AF8005CFDB4 /* MasterViewController.m */; };
+		6D1CC698199D9AF8005CFDB4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1CC697199D9AF8005CFDB4 /* DetailViewController.m */; };
+		6D1CC69A199D9AF8005CFDB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D1CC699199D9AF8005CFDB4 /* Images.xcassets */; };
+		6D1CC6A1199D9AF8005CFDB4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1CC6A0199D9AF8005CFDB4 /* XCTest.framework */; };
+		6D1CC6A2199D9AF8005CFDB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1CC67E199D9AF8005CFDB4 /* Foundation.framework */; };
+		6D1CC6A3199D9AF8005CFDB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1CC682199D9AF8005CFDB4 /* UIKit.framework */; };
+		6D1CC6AB199D9AF8005CFDB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D1CC6A9199D9AF8005CFDB4 /* InfoPlist.strings */; };
+		6D1CC6AD199D9AF8005CFDB4 /* citibikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1CC6AC199D9AF8005CFDB4 /* citibikeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D1CC6A4199D9AF8005CFDB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D1CC673199D9AF8005CFDB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D1CC67A199D9AF8005CFDB4;
+			remoteInfo = citibike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D1CC67B199D9AF8005CFDB4 /* citibike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = citibike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D1CC67E199D9AF8005CFDB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6D1CC680199D9AF8005CFDB4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6D1CC682199D9AF8005CFDB4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6D1CC686199D9AF8005CFDB4 /* citibike-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "citibike-Info.plist"; sourceTree = "<group>"; };
+		6D1CC688199D9AF8005CFDB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6D1CC68A199D9AF8005CFDB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D1CC68C199D9AF8005CFDB4 /* citibike-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "citibike-Prefix.pch"; sourceTree = "<group>"; };
+		6D1CC68D199D9AF8005CFDB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D1CC68E199D9AF8005CFDB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D1CC691199D9AF8005CFDB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D1CC693199D9AF8005CFDB4 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		6D1CC694199D9AF8005CFDB4 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		6D1CC696199D9AF8005CFDB4 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		6D1CC697199D9AF8005CFDB4 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		6D1CC699199D9AF8005CFDB4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6D1CC69F199D9AF8005CFDB4 /* citibikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = citibikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D1CC6A0199D9AF8005CFDB4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6D1CC6A8199D9AF8005CFDB4 /* citibikeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "citibikeTests-Info.plist"; sourceTree = "<group>"; };
+		6D1CC6AA199D9AF8005CFDB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6D1CC6AC199D9AF8005CFDB4 /* citibikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = citibikeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D1CC678199D9AF8005CFDB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1CC681199D9AF8005CFDB4 /* CoreGraphics.framework in Frameworks */,
+				6D1CC683199D9AF8005CFDB4 /* UIKit.framework in Frameworks */,
+				6D1CC67F199D9AF8005CFDB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D1CC69C199D9AF8005CFDB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1CC6A1199D9AF8005CFDB4 /* XCTest.framework in Frameworks */,
+				6D1CC6A3199D9AF8005CFDB4 /* UIKit.framework in Frameworks */,
+				6D1CC6A2199D9AF8005CFDB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D1CC672199D9AF8005CFDB4 = {
+			isa = PBXGroup;
+			children = (
+				6D1CC684199D9AF8005CFDB4 /* citibike */,
+				6D1CC6A6199D9AF8005CFDB4 /* citibikeTests */,
+				6D1CC67D199D9AF8005CFDB4 /* Frameworks */,
+				6D1CC67C199D9AF8005CFDB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D1CC67C199D9AF8005CFDB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D1CC67B199D9AF8005CFDB4 /* citibike.app */,
+				6D1CC69F199D9AF8005CFDB4 /* citibikeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D1CC67D199D9AF8005CFDB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D1CC67E199D9AF8005CFDB4 /* Foundation.framework */,
+				6D1CC680199D9AF8005CFDB4 /* CoreGraphics.framework */,
+				6D1CC682199D9AF8005CFDB4 /* UIKit.framework */,
+				6D1CC6A0199D9AF8005CFDB4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D1CC684199D9AF8005CFDB4 /* citibike */ = {
+			isa = PBXGroup;
+			children = (
+				6D1CC68D199D9AF8005CFDB4 /* AppDelegate.h */,
+				6D1CC68E199D9AF8005CFDB4 /* AppDelegate.m */,
+				6D1CC690199D9AF8005CFDB4 /* Main.storyboard */,
+				6D1CC693199D9AF8005CFDB4 /* MasterViewController.h */,
+				6D1CC694199D9AF8005CFDB4 /* MasterViewController.m */,
+				6D1CC696199D9AF8005CFDB4 /* DetailViewController.h */,
+				6D1CC697199D9AF8005CFDB4 /* DetailViewController.m */,
+				6D1CC699199D9AF8005CFDB4 /* Images.xcassets */,
+				6D1CC685199D9AF8005CFDB4 /* Supporting Files */,
+			);
+			path = citibike;
+			sourceTree = "<group>";
+		};
+		6D1CC685199D9AF8005CFDB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D1CC686199D9AF8005CFDB4 /* citibike-Info.plist */,
+				6D1CC687199D9AF8005CFDB4 /* InfoPlist.strings */,
+				6D1CC68A199D9AF8005CFDB4 /* main.m */,
+				6D1CC68C199D9AF8005CFDB4 /* citibike-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D1CC6A6199D9AF8005CFDB4 /* citibikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D1CC6AC199D9AF8005CFDB4 /* citibikeTests.m */,
+				6D1CC6A7199D9AF8005CFDB4 /* Supporting Files */,
+			);
+			path = citibikeTests;
+			sourceTree = "<group>";
+		};
+		6D1CC6A7199D9AF8005CFDB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D1CC6A8199D9AF8005CFDB4 /* citibikeTests-Info.plist */,
+				6D1CC6A9199D9AF8005CFDB4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D1CC67A199D9AF8005CFDB4 /* citibike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D1CC6B0199D9AF8005CFDB4 /* Build configuration list for PBXNativeTarget "citibike" */;
+			buildPhases = (
+				6D1CC677199D9AF8005CFDB4 /* Sources */,
+				6D1CC678199D9AF8005CFDB4 /* Frameworks */,
+				6D1CC679199D9AF8005CFDB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = citibike;
+			productName = citibike;
+			productReference = 6D1CC67B199D9AF8005CFDB4 /* citibike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D1CC69E199D9AF8005CFDB4 /* citibikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D1CC6B3199D9AF8005CFDB4 /* Build configuration list for PBXNativeTarget "citibikeTests" */;
+			buildPhases = (
+				6D1CC69B199D9AF8005CFDB4 /* Sources */,
+				6D1CC69C199D9AF8005CFDB4 /* Frameworks */,
+				6D1CC69D199D9AF8005CFDB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D1CC6A5199D9AF8005CFDB4 /* PBXTargetDependency */,
+			);
+			name = citibikeTests;
+			productName = citibikeTests;
+			productReference = 6D1CC69F199D9AF8005CFDB4 /* citibikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D1CC673199D9AF8005CFDB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					6D1CC69E199D9AF8005CFDB4 = {
+						TestTargetID = 6D1CC67A199D9AF8005CFDB4;
+					};
+				};
+			};
+			buildConfigurationList = 6D1CC676199D9AF8005CFDB4 /* Build configuration list for PBXProject "citibike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D1CC672199D9AF8005CFDB4;
+			productRefGroup = 6D1CC67C199D9AF8005CFDB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D1CC67A199D9AF8005CFDB4 /* citibike */,
+				6D1CC69E199D9AF8005CFDB4 /* citibikeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D1CC679199D9AF8005CFDB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1CC69A199D9AF8005CFDB4 /* Images.xcassets in Resources */,
+				6D1CC689199D9AF8005CFDB4 /* InfoPlist.strings in Resources */,
+				6D1CC692199D9AF8005CFDB4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D1CC69D199D9AF8005CFDB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1CC6AB199D9AF8005CFDB4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D1CC677199D9AF8005CFDB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1CC68F199D9AF8005CFDB4 /* AppDelegate.m in Sources */,
+				6D1CC695199D9AF8005CFDB4 /* MasterViewController.m in Sources */,
+				6D1CC68B199D9AF8005CFDB4 /* main.m in Sources */,
+				6D1CC698199D9AF8005CFDB4 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D1CC69B199D9AF8005CFDB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1CC6AD199D9AF8005CFDB4 /* citibikeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D1CC6A5199D9AF8005CFDB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D1CC67A199D9AF8005CFDB4 /* citibike */;
+			targetProxy = 6D1CC6A4199D9AF8005CFDB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D1CC687199D9AF8005CFDB4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D1CC688199D9AF8005CFDB4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6D1CC690199D9AF8005CFDB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D1CC691199D9AF8005CFDB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D1CC6A9199D9AF8005CFDB4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D1CC6AA199D9AF8005CFDB4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D1CC6AE199D9AF8005CFDB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D1CC6AF199D9AF8005CFDB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D1CC6B1199D9AF8005CFDB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "citibike/citibike-Prefix.pch";
+				INFOPLIST_FILE = "citibike/citibike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6D1CC6B2199D9AF8005CFDB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "citibike/citibike-Prefix.pch";
+				INFOPLIST_FILE = "citibike/citibike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6D1CC6B4199D9AF8005CFDB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/citibike.app/citibike";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "citibike/citibike-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "citibikeTests/citibikeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6D1CC6B5199D9AF8005CFDB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/citibike.app/citibike";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "citibike/citibike-Prefix.pch";
+				INFOPLIST_FILE = "citibikeTests/citibikeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D1CC676199D9AF8005CFDB4 /* Build configuration list for PBXProject "citibike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D1CC6AE199D9AF8005CFDB4 /* Debug */,
+				6D1CC6AF199D9AF8005CFDB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D1CC6B0199D9AF8005CFDB4 /* Build configuration list for PBXNativeTarget "citibike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D1CC6B1199D9AF8005CFDB4 /* Debug */,
+				6D1CC6B2199D9AF8005CFDB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D1CC6B3199D9AF8005CFDB4 /* Build configuration list for PBXNativeTarget "citibikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D1CC6B4199D9AF8005CFDB4 /* Debug */,
+				6D1CC6B5199D9AF8005CFDB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D1CC673199D9AF8005CFDB4 /* Project object */;
+}
