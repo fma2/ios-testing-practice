@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D1CC63B199D989C005CFDB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1CC63A199D989C005CFDB4 /* Foundation.framework */; };
+		6D1CC63D199D989C005CFDB4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1CC63C199D989C005CFDB4 /* CoreGraphics.framework */; };
+		6D1CC63F199D989C005CFDB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1CC63E199D989C005CFDB4 /* UIKit.framework */; };
+		6D1CC645199D989C005CFDB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D1CC643199D989C005CFDB4 /* InfoPlist.strings */; };
+		6D1CC647199D989C005CFDB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1CC646199D989C005CFDB4 /* main.m */; };
+		6D1CC64B199D989C005CFDB4 /* helloworldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1CC64A199D989C005CFDB4 /* helloworldAppDelegate.m */; };
+		6D1CC64E199D989C005CFDB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D1CC64C199D989C005CFDB4 /* Main.storyboard */; };
+		6D1CC651199D989C005CFDB4 /* helloworldMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1CC650199D989C005CFDB4 /* helloworldMasterViewController.m */; };
+		6D1CC654199D989C005CFDB4 /* helloworldDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1CC653199D989C005CFDB4 /* helloworldDetailViewController.m */; };
+		6D1CC656199D989C005CFDB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D1CC655199D989C005CFDB4 /* Images.xcassets */; };
+		6D1CC65D199D989C005CFDB4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1CC65C199D989C005CFDB4 /* XCTest.framework */; };
+		6D1CC65E199D989C005CFDB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1CC63A199D989C005CFDB4 /* Foundation.framework */; };
+		6D1CC65F199D989C005CFDB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1CC63E199D989C005CFDB4 /* UIKit.framework */; };
+		6D1CC667199D989C005CFDB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D1CC665199D989C005CFDB4 /* InfoPlist.strings */; };
+		6D1CC669199D989C005CFDB4 /* CitiBikieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1CC668199D989C005CFDB4 /* CitiBikieTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D1CC660199D989C005CFDB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D1CC62F199D989C005CFDB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D1CC636199D989C005CFDB4;
+			remoteInfo = CitiBikie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D1CC637199D989C005CFDB4 /* CitiBikie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitiBikie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D1CC63A199D989C005CFDB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6D1CC63C199D989C005CFDB4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6D1CC63E199D989C005CFDB4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6D1CC642199D989C005CFDB4 /* CitiBikie-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CitiBikie-Info.plist"; sourceTree = "<group>"; };
+		6D1CC644199D989C005CFDB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6D1CC646199D989C005CFDB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D1CC648199D989C005CFDB4 /* CitiBikie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CitiBikie-Prefix.pch"; sourceTree = "<group>"; };
+		6D1CC649199D989C005CFDB4 /* helloworldAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helloworldAppDelegate.h; sourceTree = "<group>"; };
+		6D1CC64A199D989C005CFDB4 /* helloworldAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloworldAppDelegate.m; sourceTree = "<group>"; };
+		6D1CC64D199D989C005CFDB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D1CC64F199D989C005CFDB4 /* helloworldMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helloworldMasterViewController.h; sourceTree = "<group>"; };
+		6D1CC650199D989C005CFDB4 /* helloworldMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloworldMasterViewController.m; sourceTree = "<group>"; };
+		6D1CC652199D989C005CFDB4 /* helloworldDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helloworldDetailViewController.h; sourceTree = "<group>"; };
+		6D1CC653199D989C005CFDB4 /* helloworldDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloworldDetailViewController.m; sourceTree = "<group>"; };
+		6D1CC655199D989C005CFDB4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6D1CC65B199D989C005CFDB4 /* CitiBikieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitiBikieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D1CC65C199D989C005CFDB4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6D1CC664199D989C005CFDB4 /* CitiBikieTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CitiBikieTests-Info.plist"; sourceTree = "<group>"; };
+		6D1CC666199D989C005CFDB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6D1CC668199D989C005CFDB4 /* CitiBikieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CitiBikieTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D1CC634199D989C005CFDB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1CC63D199D989C005CFDB4 /* CoreGraphics.framework in Frameworks */,
+				6D1CC63F199D989C005CFDB4 /* UIKit.framework in Frameworks */,
+				6D1CC63B199D989C005CFDB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D1CC658199D989C005CFDB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1CC65D199D989C005CFDB4 /* XCTest.framework in Frameworks */,
+				6D1CC65F199D989C005CFDB4 /* UIKit.framework in Frameworks */,
+				6D1CC65E199D989C005CFDB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D1CC62E199D989C005CFDB4 = {
+			isa = PBXGroup;
+			children = (
+				6D1CC640199D989C005CFDB4 /* CitiBikie */,
+				6D1CC662199D989C005CFDB4 /* CitiBikieTests */,
+				6D1CC639199D989C005CFDB4 /* Frameworks */,
+				6D1CC638199D989C005CFDB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D1CC638199D989C005CFDB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D1CC637199D989C005CFDB4 /* CitiBikie.app */,
+				6D1CC65B199D989C005CFDB4 /* CitiBikieTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D1CC639199D989C005CFDB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D1CC63A199D989C005CFDB4 /* Foundation.framework */,
+				6D1CC63C199D989C005CFDB4 /* CoreGraphics.framework */,
+				6D1CC63E199D989C005CFDB4 /* UIKit.framework */,
+				6D1CC65C199D989C005CFDB4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D1CC640199D989C005CFDB4 /* CitiBikie */ = {
+			isa = PBXGroup;
+			children = (
+				6D1CC649199D989C005CFDB4 /* helloworldAppDelegate.h */,
+				6D1CC64A199D989C005CFDB4 /* helloworldAppDelegate.m */,
+				6D1CC64C199D989C005CFDB4 /* Main.storyboard */,
+				6D1CC64F199D989C005CFDB4 /* helloworldMasterViewController.h */,
+				6D1CC650199D989C005CFDB4 /* helloworldMasterViewController.m */,
+				6D1CC652199D989C005CFDB4 /* helloworldDetailViewController.h */,
+				6D1CC653199D989C005CFDB4 /* helloworldDetailViewController.m */,
+				6D1CC655199D989C005CFDB4 /* Images.xcassets */,
+				6D1CC641199D989C005CFDB4 /* Supporting Files */,
+			);
+			path = CitiBikie;
+			sourceTree = "<group>";
+		};
+		6D1CC641199D989C005CFDB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D1CC642199D989C005CFDB4 /* CitiBikie-Info.plist */,
+				6D1CC643199D989C005CFDB4 /* InfoPlist.strings */,
+				6D1CC646199D989C005CFDB4 /* main.m */,
+				6D1CC648199D989C005CFDB4 /* CitiBikie-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D1CC662199D989C005CFDB4 /* CitiBikieTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D1CC668199D989C005CFDB4 /* CitiBikieTests.m */,
+				6D1CC663199D989C005CFDB4 /* Supporting Files */,
+			);
+			path = CitiBikieTests;
+			sourceTree = "<group>";
+		};
+		6D1CC663199D989C005CFDB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D1CC664199D989C005CFDB4 /* CitiBikieTests-Info.plist */,
+				6D1CC665199D989C005CFDB4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D1CC636199D989C005CFDB4 /* CitiBikie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D1CC66C199D989C005CFDB4 /* Build configuration list for PBXNativeTarget "CitiBikie" */;
+			buildPhases = (
+				6D1CC633199D989C005CFDB4 /* Sources */,
+				6D1CC634199D989C005CFDB4 /* Frameworks */,
+				6D1CC635199D989C005CFDB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CitiBikie;
+			productName = CitiBikie;
+			productReference = 6D1CC637199D989C005CFDB4 /* CitiBikie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D1CC65A199D989C005CFDB4 /* CitiBikieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D1CC66F199D989C005CFDB4 /* Build configuration list for PBXNativeTarget "CitiBikieTests" */;
+			buildPhases = (
+				6D1CC657199D989C005CFDB4 /* Sources */,
+				6D1CC658199D989C005CFDB4 /* Frameworks */,
+				6D1CC659199D989C005CFDB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D1CC661199D989C005CFDB4 /* PBXTargetDependency */,
+			);
+			name = CitiBikieTests;
+			productName = CitiBikieTests;
+			productReference = 6D1CC65B199D989C005CFDB4 /* CitiBikieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D1CC62F199D989C005CFDB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = helloworld;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					6D1CC65A199D989C005CFDB4 = {
+						TestTargetID = 6D1CC636199D989C005CFDB4;
+					};
+				};
+			};
+			buildConfigurationList = 6D1CC632199D989C005CFDB4 /* Build configuration list for PBXProject "CitiBikie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D1CC62E199D989C005CFDB4;
+			productRefGroup = 6D1CC638199D989C005CFDB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D1CC636199D989C005CFDB4 /* CitiBikie */,
+				6D1CC65A199D989C005CFDB4 /* CitiBikieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D1CC635199D989C005CFDB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1CC656199D989C005CFDB4 /* Images.xcassets in Resources */,
+				6D1CC645199D989C005CFDB4 /* InfoPlist.strings in Resources */,
+				6D1CC64E199D989C005CFDB4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D1CC659199D989C005CFDB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1CC667199D989C005CFDB4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D1CC633199D989C005CFDB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1CC651199D989C005CFDB4 /* helloworldMasterViewController.m in Sources */,
+				6D1CC64B199D989C005CFDB4 /* helloworldAppDelegate.m in Sources */,
+				6D1CC654199D989C005CFDB4 /* helloworldDetailViewController.m in Sources */,
+				6D1CC647199D989C005CFDB4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D1CC657199D989C005CFDB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1CC669199D989C005CFDB4 /* CitiBikieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D1CC661199D989C005CFDB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D1CC636199D989C005CFDB4 /* CitiBikie */;
+			targetProxy = 6D1CC660199D989C005CFDB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D1CC643199D989C005CFDB4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D1CC644199D989C005CFDB4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6D1CC64C199D989C005CFDB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D1CC64D199D989C005CFDB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D1CC665199D989C005CFDB4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D1CC666199D989C005CFDB4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D1CC66A199D989C005CFDB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D1CC66B199D989C005CFDB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D1CC66D199D989C005CFDB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CitiBikie/CitiBikie-Prefix.pch";
+				INFOPLIST_FILE = "CitiBikie/CitiBikie-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6D1CC66E199D989C005CFDB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CitiBikie/CitiBikie-Prefix.pch";
+				INFOPLIST_FILE = "CitiBikie/CitiBikie-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6D1CC670199D989C005CFDB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CitiBikie.app/CitiBikie";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CitiBikie/CitiBikie-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CitiBikieTests/CitiBikieTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6D1CC671199D989C005CFDB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CitiBikie.app/CitiBikie";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CitiBikie/CitiBikie-Prefix.pch";
+				INFOPLIST_FILE = "CitiBikieTests/CitiBikieTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D1CC632199D989C005CFDB4 /* Build configuration list for PBXProject "CitiBikie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D1CC66A199D989C005CFDB4 /* Debug */,
+				6D1CC66B199D989C005CFDB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D1CC66C199D989C005CFDB4 /* Build configuration list for PBXNativeTarget "CitiBikie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D1CC66D199D989C005CFDB4 /* Debug */,
+				6D1CC66E199D989C005CFDB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D1CC66F199D989C005CFDB4 /* Build configuration list for PBXNativeTarget "CitiBikieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D1CC670199D989C005CFDB4 /* Debug */,
+				6D1CC671199D989C005CFDB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D1CC62F199D989C005CFDB4 /* Project object */;
+}
