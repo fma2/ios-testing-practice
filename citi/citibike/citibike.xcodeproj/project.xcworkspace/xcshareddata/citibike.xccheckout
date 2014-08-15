@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>36582A2B-DE42-4FA0-B06A-B866E7008B12</string>
+	<string>2295FF06-BE61-4810-A0CA-8715E8465918</string>
 	<key>IDESourceControlProjectName</key>
 	<string>citibike</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>CD415FAC-476E-4742-91D4-6D16F5F88125</string>
 			<key>IDESourceControlWCCName</key>
-			<string>CitiBikie</string>
+			<string>citibike</string>
 		</dict>
 	</array>
 </dict>

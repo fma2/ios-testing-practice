@@ -15,13 +15,14 @@
 		6D1CC68F199D9AF8005CFDB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1CC68E199D9AF8005CFDB4 /* AppDelegate.m */; };
 		6D1CC692199D9AF8005CFDB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D1CC690199D9AF8005CFDB4 /* Main.storyboard */; };
 		6D1CC695199D9AF8005CFDB4 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1CC694199D9AF8005CFDB4 /* MasterViewController.m */; };
-		6D1CC698199D9AF8005CFDB4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1CC697199D9AF8005CFDB4 /* DetailViewController.m */; };
 		6D1CC69A199D9AF8005CFDB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D1CC699199D9AF8005CFDB4 /* Images.xcassets */; };
 		6D1CC6A1199D9AF8005CFDB4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1CC6A0199D9AF8005CFDB4 /* XCTest.framework */; };
 		6D1CC6A2199D9AF8005CFDB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1CC67E199D9AF8005CFDB4 /* Foundation.framework */; };
 		6D1CC6A3199D9AF8005CFDB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1CC682199D9AF8005CFDB4 /* UIKit.framework */; };
 		6D1CC6AB199D9AF8005CFDB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D1CC6A9199D9AF8005CFDB4 /* InfoPlist.strings */; };
 		6D1CC6AD199D9AF8005CFDB4 /* citibikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1CC6AC199D9AF8005CFDB4 /* citibikeTests.m */; };
+		6DC85F56199DA5F500632BE2 /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC85F55199DA5F500632BE2 /* Station.m */; };
+		7DACE03C563444B3991FF120 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73573A68E9D7414395C7C04F /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5FDD52942EF24E0480874D22 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		6D1CC67B199D9AF8005CFDB4 /* citibike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = citibike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D1CC67E199D9AF8005CFDB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6D1CC680199D9AF8005CFDB4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,14 +50,15 @@
 		6D1CC691199D9AF8005CFDB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D1CC693199D9AF8005CFDB4 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		6D1CC694199D9AF8005CFDB4 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		6D1CC696199D9AF8005CFDB4 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		6D1CC697199D9AF8005CFDB4 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		6D1CC699199D9AF8005CFDB4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6D1CC69F199D9AF8005CFDB4 /* citibikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = citibikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D1CC6A0199D9AF8005CFDB4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6D1CC6A8199D9AF8005CFDB4 /* citibikeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "citibikeTests-Info.plist"; sourceTree = "<group>"; };
 		6D1CC6AA199D9AF8005CFDB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6D1CC6AC199D9AF8005CFDB4 /* citibikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = citibikeTests.m; sourceTree = "<group>"; };
+		6DC85F54199DA5F500632BE2 /* Station.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
+		6DC85F55199DA5F500632BE2 /* Station.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Station.m; sourceTree = "<group>"; };
+		73573A68E9D7414395C7C04F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,7 @@
 				6D1CC681199D9AF8005CFDB4 /* CoreGraphics.framework in Frameworks */,
 				6D1CC683199D9AF8005CFDB4 /* UIKit.framework in Frameworks */,
 				6D1CC67F199D9AF8005CFDB4 /* Foundation.framework in Frameworks */,
+				7DACE03C563444B3991FF120 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +93,7 @@
 				6D1CC6A6199D9AF8005CFDB4 /* citibikeTests */,
 				6D1CC67D199D9AF8005CFDB4 /* Frameworks */,
 				6D1CC67C199D9AF8005CFDB4 /* Products */,
+				5FDD52942EF24E0480874D22 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +113,7 @@
 				6D1CC680199D9AF8005CFDB4 /* CoreGraphics.framework */,
 				6D1CC682199D9AF8005CFDB4 /* UIKit.framework */,
 				6D1CC6A0199D9AF8005CFDB4 /* XCTest.framework */,
+				73573A68E9D7414395C7C04F /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,8 +126,8 @@
 				6D1CC690199D9AF8005CFDB4 /* Main.storyboard */,
 				6D1CC693199D9AF8005CFDB4 /* MasterViewController.h */,
 				6D1CC694199D9AF8005CFDB4 /* MasterViewController.m */,
-				6D1CC696199D9AF8005CFDB4 /* DetailViewController.h */,
-				6D1CC697199D9AF8005CFDB4 /* DetailViewController.m */,
+				6DC85F54199DA5F500632BE2 /* Station.h */,
+				6DC85F55199DA5F500632BE2 /* Station.m */,
 				6D1CC699199D9AF8005CFDB4 /* Images.xcassets */,
 				6D1CC685199D9AF8005CFDB4 /* Supporting Files */,
 			);
@@ -164,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D1CC6B0199D9AF8005CFDB4 /* Build configuration list for PBXNativeTarget "citibike" */;
 			buildPhases = (
+				DB2A4C9F769B41E08E65F6C0 /* Check Pods Manifest.lock */,
 				6D1CC677199D9AF8005CFDB4 /* Sources */,
 				6D1CC678199D9AF8005CFDB4 /* Frameworks */,
 				6D1CC679199D9AF8005CFDB4 /* Resources */,
+				0A5EFE4C25CC4A7594CF96F4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +256,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A5EFE4C25CC4A7594CF96F4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB2A4C9F769B41E08E65F6C0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6D1CC677199D9AF8005CFDB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -255,8 +296,8 @@
 			files = (
 				6D1CC68F199D9AF8005CFDB4 /* AppDelegate.m in Sources */,
 				6D1CC695199D9AF8005CFDB4 /* MasterViewController.m in Sources */,
+				6DC85F56199DA5F500632BE2 /* Station.m in Sources */,
 				6D1CC68B199D9AF8005CFDB4 /* main.m in Sources */,
-				6D1CC698199D9AF8005CFDB4 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +419,7 @@
 		};
 		6D1CC6B1199D9AF8005CFDB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FDD52942EF24E0480874D22 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -391,6 +433,7 @@
 		};
 		6D1CC6B2199D9AF8005CFDB4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FDD52942EF24E0480874D22 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -461,6 +504,7 @@
 				6D1CC6B2199D9AF8005CFDB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D1CC6B3199D9AF8005CFDB4 /* Build configuration list for PBXNativeTarget "citibikeTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +513,7 @@
 				6D1CC6B5199D9AF8005CFDB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
